@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <h1>Einloggen</h1>
 <form action="loginSuccess.html" method="post">
-  <div></div>
+  <div>
+      <label for="email">Vorname</label>
+  </div>
+    <div>
+        <input type="email" id="email" name="email" placeholder="email@mail.com" required>
+    </div>
+    <div>
+        <label for="password">Passwort</label>
+    </div>
+    <div>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div><input type="submit" value="Absenden"></div>
 </form>
 
 </body>
