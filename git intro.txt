@@ -1,0 +1,26 @@
+in ide: auf projektordner: open in terminal 
+>> git init
+
+>> git remote add origin https://github.com/birnu/test.git
+
+>>gitignore https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+
+>> git status
+
+>> git add .
+
+>> git commit -m "first commit" (zB)
+
+>> git branch -M main
+
+In Projektordner: (dateien aus repo kopieren >)
+>> git clone https://github.com/Fishies4You/Webshop_00.git (zb)
+
+
+>> git pull origin master (holt stand von master in meinen aktuellen branch)
+>> git branch (wo bin ich)
+>> git checkout [branchname] (gehe auf diesen branch)
+>> git checkout -b [branchname] (erstellt neuen branch ausgehend von dem wo ich gerade bin)
+
+(wenn "unstaged" probleme: probieren zu commiten)
+> git add . um alles fehlende hinzuzufügen (zu "stagen")
