@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Benutzerkonto anlegen</h1>
+    <form action="registrationSuccess.html" method="post">
+        <div>
+            <label for="anrede">Anrede</label>
+        </div>
+        <div>
+            <select id="anrede" name="anrede">
+                <option value="0">Frau</option>
+                <option value="1">Herr</option>
+                <option value="2">Divers</option>
+            </select>
+        </div>
+        <div>
+            <label for="fname">Vorname</label><br />
+        </div>
+        <div>
+            <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    required/>
+        </div>
+        <div>
+            <label for="lname">Nachname</label>
+        </div>
+        <div>
+            <input
+                    type="text"
+                    id="lname"
+                    name="lname"
+                    required/>
+        </div>
+        <div>
+            <label for="email">E-Mail</label>
+        </div>
+        <div>
+            <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Deine E-Mail-Adresse"
+                    required>
+        </div>
+        <div>
+            <label for="passwd">Passwort</label>
+        </div>
+        <div>
+            <input
+                    type="password"
+                    id="passwd"
+                    name="password"
+
+                    required/>
+        </div>
+        <div>
+            <label for="passwd">Passwort nochmal eingeben</label>
+        </div>
+        <div>
+            <input
+                    type="password"
+                    id="passwd"
+                    name="password"
+
+                    required/>
+        </div>
+        <div>
+            <label for="acceptPrivacyPolicy">
+                <input type="checkbox" id="acceptPrivacyPolicy" name="acceptPrivacyPolicy" required>
+                Hiermit akzeptiere ich die <a href="agb.html">AGB</a> und die <a href="privacy.html">Datenschutzerklärung</a> von Fishies4You
+            </label>
+        </div>
+        <div>
+            <input
+                    type="submit"
+                    value="Absenden">
+        </div>
+    </form>
+</body>
+</html>
