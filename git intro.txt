@@ -24,3 +24,5 @@ In Projektordner: (dateien aus repo kopieren >)
 
 (wenn "unstaged" probleme: probieren zu commiten)
 > git add . um alles fehlende hinzuzufügen (zu "stagen")
+
+(command line: change hard drive / partition: "M:\>cd /d C:\" um von M auf C zu wechseln)
