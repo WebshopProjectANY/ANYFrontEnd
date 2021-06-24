@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="de">
+<html class="h-100" lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Login Erfolgreich!</title>
+    <title>Login Successful!</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/top-padding.css">
 </head>
-<body>
+<body class="d-flex flex-column h-100 vsc-initialized">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light mt-auto fixed-top">
     <div class="container-fluid">
         <img src="../assets/panda.png" alt="shop logo" width="30" height="24">
         <a class="navbar-brand" href="#">ANYShop</a>
@@ -21,12 +22,6 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
-                <!--
-                commented b/c not in use
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Kategorien
@@ -39,18 +34,23 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
+<div>
 <h1>Willkommen, {insertnamehere}!</h1>
 
 <img src="https://media.giphy.com/media/uSYQsJQWEv6O4/source.gif" alt="happy pandy gif">
+</div>
 
-<footer class="bg-light text-center text-lg-start">
+<footer class="bg-light text-center text-lg-start mt-auto">
     <!-- Copyright -->
     <div class="text-center p-3">
         © 2021 Copyright:
