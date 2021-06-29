@@ -1,0 +1,11 @@
+body {
+    padding-top: 70px;
+    background-image: url("../assets/unsplash_bg_small.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.left-padding {
+    padding-left: 20px;
+}
