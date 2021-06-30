@@ -46,14 +46,56 @@
     </div>
 </nav>
 
+<div class="container">
+    <form>
+        <div class="mb-3">
+        <label for="anrede" class="form-label">Anrede</label>
+        <select id="anrede" class="form-select" aria-label="Default select example">
+
+            <option value="1">Divers</option>
+            <option value="3">Männlich</option>
+            <option value="2">Weiblich</option>
+        </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleVorname" class="form-label">Vorname</label>
+            <input type="text" class="form-control" id="exampleVorname" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleNachname" class="form-label">Nachname</label>
+            <input type="text" class="form-control" id="exampleNachname" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">E-Mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Deine E-Mail-Adresse" aria-describedby="emailHelp" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Passwort</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword2" class="form-label">Passwort wiederholen</label>
+            <input type="password" class="form-control" id="exampleInputPassword2" required>
+            <div id="emailHelp2" class="form-text">Achtung! Wir teilen Ihre Daten mit Dritten.</div>
+        </div>
+        <div class="form-check mb-3 ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+            <label class="form-check-label" for="flexCheckDefault">
+                Hiermit akzeptiere ich die <a href="agb.html">AGB</a> und die <a href="privacy.html">Datenschutzerklärung</a> von ANYShop
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Konto erstellen</button>
+    </form>
+</div>
+<!--
 <div class="left-padding">
     <h1>Benutzerkonto anlegen</h1>
     <form action="registrationSuccess.html" method="post">
         <div>
-            <label for="anrede">Anrede</label>
+            <label for="vvanrede">Anrede</label>
         </div>
         <div>
-            <select id="anrede" name="anrede">
+            <select id="vvanrede" name="vvanrede">
                 <option value="0">Frau</option>
                 <option value="1">Herr</option>
                 <option value="2">Divers</option>
@@ -124,7 +166,7 @@
                     value="Absenden">
         </div>
     </form>
-</div>
+</div>-->
 <footer class="bg-light text-center text-lg-start mt-auto">
     <!-- Copyright -->
     <div class="text-center p-3">

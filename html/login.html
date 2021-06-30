@@ -46,25 +46,23 @@
     </div>
 </nav>
 
-<div class="left-padding">
-<h1>Einloggen</h1>
-<form action="loginSuccess.html" method="post">
-  <div>
-      <label for="email">E-Mail Adresse</label>
-  </div>
-    <div>
-        <input type="email" id="email" name="email" placeholder="email@mail.com" required>
+
+
+<div class="container">
+<form>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
-    <div>
-        <label for="password">Passwort</label>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+        <div id="emailHelp" class="form-text">Achtung! Wir teilen Ihre Daten mit Dritten.</div>
     </div>
-    <div>
-        <input type="password" id="password" name="password" required>
-    </div>
-    <div><input type="submit" value="Absenden"></div>
+
+    <button type="submit" class="btn btn-primary">Anmelden</button>
 </form>
 </div>
-
 <footer class="bg-light text-center text-lg-start mt-auto">
     <!-- Copyright -->
     <div class="text-center p-3">
