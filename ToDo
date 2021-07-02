@@ -1,10 +1,15 @@
 ANY ToDos
 
 
-
+- registrierung: geschlecht ändern zu anrede ("Herr", "Frau", "Other") 
+    > bei "Other": mit Javascript Eingabefeld öffnen um eigene Anrede anzugeben mit zB max 20 Zeichen)
 - success pages: center content
 - ev. todos als tasks/tickets bei github verwalten
 - login formular zentrieren (ev mit grid?)
+- navbar und footer zuerst laden (am anfang von body)
+- Abstand bei "Konto erstellen"-Button zu Footer von registerseite(notwendig für extrem kleine screens?) 
+- AGBs und Datenschutzerklärung: soll als "modal" geöffnet werden (zb bootstrap)
+- impressum: zukunftig: styling (zb br tags) über css einbinden
 
 
 
