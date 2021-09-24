@@ -24,3 +24,7 @@ Note:
     $('#navbar').load('navbar.html');
     $('#footer').load('footer.html');
 </script> only works if html runs on Webstorm (on a server), not directly from folder because it doesn't know the path!
+
+Shopping cart taken from
+[MD Bootstrap (Shopping carts #2)](https://mdbootstrap.com/docs/standard/extended/shopping-carts/)
+
